@@ -1,0 +1,1 @@
+﻿AOC_2025.Day2Solution.main();
