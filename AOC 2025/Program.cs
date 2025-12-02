@@ -1,1 +1,1 @@
-﻿AOC_2025.Day2Solution.main();
+﻿AOC_2025.Day2Solution.part2.main();

@@ -26,6 +26,8 @@ public static class Day1Solution
         }
         
         Console.WriteLine($"The final amount of 0's was: {numZeros}");
+        
+        stream.Close();
     }
     
     public enum direction: byte
