@@ -74,7 +74,7 @@ public static class Day2Solution
     {
         public static void main()
         {
-            StreamReader stream = new StreamReader(global.Path + "/Day2/source.txt", Encoding.UTF8);
+            StreamReader stream = new StreamReader(global.Path + "/Day2/source2.txt", Encoding.UTF8);
 
             string file = stream.ReadToEnd();
 
@@ -141,7 +141,7 @@ public static class Day2Solution
 
                 if (!notRepeated)
                 {
-                    Console.WriteLine($"invalid id {str} with group size {groupSize}");
+                    //Console.WriteLine($"invalid id {str} with group size {groupSize}");
                     return long.Parse(str);
                 }
             }
