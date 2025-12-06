@@ -86,7 +86,7 @@ public static class Day3Solution
                 joltage += str[lowestIndex];
             }
             
-            Console.WriteLine($"the highest joltage in string {str} was {joltage})");
+            //Console.WriteLine($"the highest joltage in string {str} was {joltage})");
 
             return long.Parse(joltage);
         }
