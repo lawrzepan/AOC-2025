@@ -3,7 +3,7 @@ using Timer = System.Timers.Timer;
 
 var stopwatch = Stopwatch.StartNew();
 
-AOC_2025.Day4Solution.part2.main();
+AOC_2025.Day5Solution.part2.main();
 
 stopwatch.Stop();
 
